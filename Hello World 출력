@@ -1,0 +1,10 @@
+print("Hello World")
+
+print("Hello World"*5)\
+
+print(2**10)
+
+print(2**50)
+# 단축기 Shift + F10
+# 소스코드 바뀔 때단축기 alt + Shift + F10
+# 주석은 #으로 한다. ctrl + /
