@@ -1,0 +1,6 @@
+from tkinter import *
+w = Tk()
+w.title('good') // 출력할 글자
+
+w.geometry('400x200') // 사이즈
+w.mainloop()
