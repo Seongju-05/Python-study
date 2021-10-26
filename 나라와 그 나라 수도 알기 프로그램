@@ -1,0 +1,18 @@
+Contry = {}
+print("====나라와 그 나라 수도 알기 프로그램====")
+
+while True :
+    menu = int(input("[1:등록 / 2:삭제 / 3:조회 / 4: 종료] : "))
+    if menu == 4:
+        break
+    elif menu == 1:
+        name = input("어떤 나라 인가? : ")
+        city = input("그 나라의 수도가 무엇인가? : ")
+        Contry[name] = city
+    elif menu == 2:
+        delete = input("삭제할 나라 이름이 무엇인가? : ")
+        del(Contry[delete])
+    elif menu == 3:
+        print(Contry)
+
+print("====나라와 그 나라 수도 알기 프로그램 종료====")
