@@ -1,0 +1,20 @@
+제목 : 코드업[CodeUp] (파이썬) 6008번
+
+print("Hello\nWorld")
+
+위 코드를 정확히 그대로 출력하시오.
+
+print 명령 안에 서식 문자로 \n을 사용하면 줄 바꿈(new line) 문자로 사용된다.
+
+그렇다면 \n을 화면에 그대로 출력하려면 어떻게 해야될까?
+
+입력 예제 1
+
+없음
+
+출력 예제 1
+
+print('print("Hello\\nWorld")')
+
+ㅡ코드ㅡ
+print('print("Hello\\nWorld")')
