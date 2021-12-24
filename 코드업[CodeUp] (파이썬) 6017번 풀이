@@ -1,0 +1,18 @@
+제목 : 코드업[CodeUp] (파이썬) 6017번 풀이
+
+ㅡ문제ㅡ
+
+정수(integer), 실수, 문자(character), 문자열(string) 등 1개만 입력받아 한 줄로 3번 출력해보자.
+
+입력 예제1
+
+computer science
+
+출려예제 1
+
+computer science computer science computer science
+
+ㅡ코드ㅡ
+
+s = input()
+print(s, s, s) 
